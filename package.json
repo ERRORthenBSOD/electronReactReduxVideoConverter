@@ -1,0 +1,35 @@
+{
+  "name": "VideoConverter",
+  "version": "1.0.0",
+  "description": "Electron conversion app",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "el": "electron ."
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "electron": "^3.0.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-dropzone": "^3.12.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "repository": "git@github.com:ERRORthenBSOD/electronReactReduxVideoConverter.git",
+  "author": "Atmospheric_b-10 <atmobsod@gmail.com>",
+  "license": "MIT"
+}
